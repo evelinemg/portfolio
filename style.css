@@ -1,0 +1,194 @@
+*{
+  outline: red solid 1px;
+}
+body{
+  font-family: "Raleway";
+  background: #F5F5F5;
+  font-weight: 500;
+  color: #464646;
+}
+.caixa{
+  position: relative;
+  width: 80%;
+  height: 88px;
+  margin:0 auto 66.5px auto;
+}
+.logo{
+  right: 0;
+}
+.caixa img{
+  position: absolute;
+  top: 32px;
+  left:0;
+}
+.caixa p{
+  position: absolute;
+  left: 32px;
+  top: 34.5px;
+  font-weight:bold;
+  color: #464646
+}
+.caixa nav ul{
+  position: absolute;
+  top: 34.5px;
+  right: 0;
+}
+
+a{
+  color: #464646;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+.caixa nav li{
+  display: inline;
+  margin: 0 0 0 32px;
+
+}
+.caixa nav li:last-child{
+  font-weight: bold;
+}
+.topo{
+  display: flex;
+  width: 80%;
+  height: 368px;
+  margin:0 auto 32px auto;
+}
+
+.topo h1{
+  font-size: 52px;
+  font-weight: bold;
+  margin: 61px 17px 24px 0;
+}
+.topo p{
+  margin: 0px 17px 24px 0;
+}
+.topo li{
+  display: inline;
+  margin: 0 60px 61px 0;
+}
+
+.topo a:after{
+  content: url(images/Vector.png);
+  margin-left: 4.69px;
+}
+main h2{
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+.sobremim{
+  display: flex;
+  background: #EAF2FD;
+  height: 383px;
+}
+.sobremim div{
+  width: 80%;
+  margin: 64px auto 64px auto;
+}
+.sobremim h2{
+  text-align: left;
+  margin-bottom: 16px;
+  font-size: 32px;
+  font-weight: bold;
+}
+.sobremim p{
+  margin: 19px 0px;
+  width: 66%;
+}
+.sobremim img{
+  margin-bottom: 16px 0;
+}
+.skils{
+  width: 80%;
+  height: 244px;
+  margin:32px auto;
+}
+.skils ul{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between
+}
+.skils li{
+  width: 15.5%;
+  height: 174px;
+  display: inline-block;
+  background: #FFFFFF;
+  margin-top: 37px;
+}
+.skils img{
+  position: absolute;
+  margin: 94px 120px 43px 16px;
+}
+.skils h3{
+  position: absolute;
+  margin: 139px 16px 16px 16px;
+}
+.hobbies{
+  width: 80%;
+  height: 244px;
+  margin:88px auto;
+}
+.hobbies ul{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between
+}
+.hobbies li{
+  width: 15.5%;
+  height: 174px;
+  display: inline-block;
+  background: #FFFFFF;
+  margin-top: 37px;
+}
+.hobbies img{
+  position: absolute;
+  margin: 94px 120px 43px 16px;
+}
+.hobbies h3{
+  position: absolute;
+  margin: 139px 16px 16px 16px;
+}
+.formacaoacademica{
+  display: flex;
+  background: #EAF2FD;
+  height:581px;
+
+
+}
+.formacaoacademica div{
+  width: 80%;
+  margin: 82px auto;
+
+
+}
+.formacaoacademica h2{
+  padding-bottom: 32px;
+}
+.formacaoacademica ul{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between
+}
+.formacaoacademica li{
+  width: 27%;
+}
+#imagem{
+  margin: 0 0 8px 0;
+  background: #FFFFFF;
+  box-sizing: border-box;
+  border: 2px solid #FFFFFF;
+  width: 100%;
+  height: 100%;
+  padding: 78px 88px;
+}
+
+.formacaoacademica h3{
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
