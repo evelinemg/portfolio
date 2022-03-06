@@ -1,6 +1,4 @@
-*{
-  outline: red solid 1px;
-}
+
 body{
   font-family: "Raleway";
   background: #F5F5F5;
@@ -191,4 +189,69 @@ main h2{
   font-size: 22px;
   font-weight: bold;
   margin-bottom: 8px;
+}
+.experiencia{
+  width: 80%;
+  margin: 32px auto;
+}
+.experiencia li{
+  display: flex;
+  align-items: center;
+  margin: 32px auto 53.5px auto;
+}
+.experiencia li:nth-of-type(2n){
+    justify-content: space-between;
+}
+.img {
+  width: 66%;
+}
+.experiencia img{
+  width: 100%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.text{
+  margin-left: 26px;
+
+}
+.text:nth-of-type(2n+1){
+  margin-left: 0;
+  margin-right: 16px;
+  background=blue;
+}
+.experiencia h3{
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+button[name="verdemo"]{
+  margin-top: 8px;
+  border: none;
+  width: 105px;
+  height: 51px;
+  left: 16px;
+  top: 16px;
+  color: #FFFFFF;
+  background: #2A7AE4;
+
+}
+button[name="repositorio"]{
+  margin-right: 16px;
+  width: 116px;
+  height: 51px;
+  left: 16px;
+  top: 16px;
+  color: #2A7AE4;
+  background:#F5F5F5;
+  border: 1px solid #2A7AE4;
+  box-sizing: border-box;
+}
+button[name="verdemo"]:hover{
+  background: #5595E9;
+
+}
+button[name="repositorio"]:hover{
+  background: #D4E4FA;
+  border: 1px solid #2A7AE4;
+  box-sizing: border-box;
 }
